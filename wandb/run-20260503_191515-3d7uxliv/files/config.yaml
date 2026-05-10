@@ -1,0 +1,86 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            ore2fvsk9zeaqstfofs0chtkwyddc2vx:
+                codePath: projects/new_model-Copy/aux_train.py
+                codePathLocal: aux_train.py
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "13.2"
+                disk:
+                    /:
+                        total: "1081101176832"
+                        used: "670936551424"
+                email: miskoweis1@gmail.com
+                executable: /home/misko/miniconda3/envs/radiate/bin/python
+                git:
+                    commit: 4866f40151fd0d6665115b57a8aa0ac6187812b6
+                    remote: https://github.com/MichalWeis/BP.git
+                gpu: NVIDIA GeForce RTX 4090
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      memoryTotal: "25757220864"
+                      name: NVIDIA GeForce RTX 4090
+                      uuid: GPU-2bf95723-1a71-40ae-8b13-5959780e8c06
+                host: PC-MISO
+                memory:
+                    total: "33508413440"
+                os: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+                program: /home/misko/projects/BP/projects/new_model-Copy/aux_train.py
+                python: CPython 3.10.12
+                root: /home/misko/projects/BP/projects/new_model-Copy
+                startedAt: "2026-05-03T17:15:15.381247Z"
+                writerId: ore2fvsk9zeaqstfofs0chtkwyddc2vx
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.12
+            "5": 0.25.0
+            "12": 0.25.0
+            "13": linux-x86_64
+backbone_checkpoint:
+    value: /home/misko/projects/BP/projects/new_model/checkpoints/scheduler_Tmax/epoch_0100.pt
+balanced_counts:
+    value:
+        clear: 1000
+        fog: 1000
+        rain: 1000
+        snow: 1000
+batch_size:
+    value: 16
+focal_alpha:
+    value:
+        clear: 1
+        fog: 1
+        rain: 1
+        snow: 1
+learning_rate:
+    value: 0.001
+max_per_class:
+    value: 1000
+num_epochs:
+    value: 60
+rain_target:
+    value: 1000
+task:
+    value: auxiliary_head_only
+weather_focal_gamma:
+    value: 2
+weight_decay:
+    value: 0.0005
