@@ -4,7 +4,7 @@ Multi-modal object detection for adverse weather, built on Faster R-CNN.
 
 CerberusNet fuses **RGB camera**, **LiDAR**, and **radar** through a shared ResNet-18 + FPN encoder with four parallel detection heads. An auxiliary weather/daytime classifier enables condition-aware head selection at inference time.
 
-![Architecture diagram](images/model_architecture.png)
+![Architecture diagram](model_architecture.png)
 
 Trained and evaluated on the [SeeingThroughFog](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets/) (STF) dataset.
 
